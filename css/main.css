@@ -1,0 +1,29 @@
+/*top left logo*/
+#m-nav{width:960px;height:80px;margin:0 auto;background-color: #fefefe;border:1px solid #ccc;border-radius:0 0 3px 3px/0 0 3px 3px;}
+#m-nav .leftArea{float:left;font:28px "Gill Sans MT";line-height:80px;margin-left:10px;}
+.leftArea ul li{float:left;}
+.leftArea ul li:first-child{color:#286eff;}
+.leftArea ul li:nth-child(2){padding-right:10px;}
+.leftArea ul li:last-child{font:28px/80px "Hiragino Sans GB";}
+.leftArea ul li:last-child a{border-left: 2px solid #286eff;padding-left:14px;}
+/* top right nav */
+#m-nav .rightArea{float:right;font:16px "宋体";margin-top:33px;}
+.rightArea ul li{float:left;margin-right:10px;padding:3px 7px;border:1px solid #fff;border-radius: 5px;}
+.rightArea ul li:hover{border-color:#286eff;}
+.rightArea ul li a:hover{color:#286eff;}
+
+/*changpin jie xiao*/
+#m-product{border:1px solid #ccc;border-radius:3px;margin:7px auto;width:960px;}
+#m-product .main-product{width:313px;float:left;height:210px;border-top:0px solid #000;border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-left:1px solid #ccc;margin-right:5px;margin-top:3px;}
+#m-product .main-product:nth-child(3n){border-right:none;}
+.main-product img{float:left;border-radius:3px;padding-top:5px;margin-left:5px;}
+.main-product p{float:left;width:210px;font:14px/20px "宋体";padding:5px;}
+.main-product .p3{height:80px;overflow:hidden;text-overflow:ellipsis;word-wrap:nowrap;line-height: 22px;}
+.main-product .p2{font:12px/12px "宋体";}
+
+/* 底部CSS*/
+ .foot{clear:both;width:920px;margin:0 auto;background-color:#34373a;color:#bac3cc;height:130px;padding:10px 20px;font:14px/22px "microsoft yahei UI";border-radius:3px 3px 0 0 /3px 3px 0 0;}
+.foot ul{float:left;}
+.foot ul:first-child{border-right:1px solid #bac3cc;padding-right:25px;}
+.foot ul:nth-child(2){margin:40px 25px 25px 25px;}
+.foot ul:last-child{float:right;margin-right:115px;margin-top:40px;}
